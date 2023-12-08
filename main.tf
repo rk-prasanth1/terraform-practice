@@ -1,5 +1,5 @@
 provider "aws" {
-  region = eu-noth-1
+  region = "eu-north-1"
 }
 
 resource "aws_instance" "terraform" {
